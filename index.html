@@ -7,89 +7,96 @@
 	<title>Search Engine</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+	<style>
+  		@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Merriweather&family=Montserrat&family=Nabla&family=Oswald:wght@500&family=Shadows+Into+Light&display=swap');
+	</style>
 </head>
 <body>
-	<section class="container">
-		<form>
-			<i class="fas fa-search"></i>
-			<input type="text" name="" id="search-item" placeholder="Search Products..." onkeyup="search()">
-		</form>
+	<nav class="navbar">Mini Search Engine - Some Clothes</nav>
 
-		<div class="product-list" id="product-list">
-			<div class="product">
-				<img src="t1.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>White Tshirt</h2>
-					<h3>10$</h3>
+	<section class="content">
+		<section class="container">
+			<form>
+				<i class="fas fa-search"></i>
+				<input type="text" name="" id="search-item" 	placeholder="Search Products..." onkeyup="search()">
+			</form>
+	
+			<div class="product-list" id="product-list">
+				<div class="product">
+					<img src="t1.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>White T-shirt</h2>
+						<h3>10$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="t2.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>Ochre Tshirt</h2>
+						<h3>8$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="t3.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>Black Tshirt</h2>
+						<h3>12$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="h1.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>Star Wars Hoodie</h2>
+						<h3><span  style="text-decoration: line-through black solid 2px; color: red;">15$</span> 13$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="h2.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>White Hoodie</h2>
+						<h3>13$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="h3.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>Orange Hoodie</h2>
+						<h3>17$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="j1.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>Blue Jeans</h2>
+						<h3>11$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="j2.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>Black Jeans</h2>
+						<h3>13$</h3>
+					</div>
+				</div>
+				<!-- ----------------------------- -->
+				<div class="product">
+					<img src="j3.jpg" alt="tshirt">
+					<div class="p-details">
+						<h2>Dark Blue Jeans</h2>
+						<h3>15$</h3>
+					</div>
 				</div>
 			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="t2.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>Ochre Tshirt</h2>
-					<h3>8$</h3>
-				</div>
-			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="t3.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>Black Tshirt</h2>
-					<h3>12$</h3>
-				</div>
-			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="h1.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>Star Wars Hoodie</h2>
-					<h3>15$</h3>
-				</div>
-			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="h2.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>White Hoodie</h2>
-					<h3>13$</h3>
-				</div>
-			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="h3.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>Orange Hoodie</h2>
-					<h3>17$</h3>
-				</div>
-			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="j1.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>Blue Jeans</h2>
-					<h3>11$</h3>
-				</div>
-			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="j2.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>Black Jeans</h2>
-					<h3>13$</h3>
-				</div>
-			</div>
-			<!-- ----------------------------- -->
-			<div class="product">
-				<img src="j3.jpg" alt="tshirt">
-				<div class="p-details">
-					<h2>Dark Blue Jeans</h2>
-					<h3>15$</h3>
-				</div>
-			</div>
-		</div>
+		</section>
 	</section>
-
 	<script src="script.js"></script>
 </body>
 </html>
